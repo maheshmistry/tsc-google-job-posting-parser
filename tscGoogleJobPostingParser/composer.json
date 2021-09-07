@@ -1,15 +1,16 @@
 {
     "name": "mahesh/tsc-google-job-posting-parser",
-    "type": "library",
+    "type": "package",
+    "require": {
+        "php": ">=7.4"
+    },
     "authors": [
         {
             "name": "maheshmistry",
             "email": "maheshmistry879@gmail.com"
         }
     ],
-    "require": {
-        "php": ">=7.4"
-    },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "tscGoogleJobPostingParser\\": "src/"
