@@ -1,20 +1,16 @@
 {
-    "name": "maheshmistry/tsc-google-job-posting-parser",
-    "type": "package",
-    "require": {
-        "php": ">=7.4"
+    "repositories": {
+        "tsc-google-job-posting-parser" : {
+            "url": "TscGoogleJobPostingParser",
+            "type": "path",
+            "options": {
+                "symlink":true
+            }
+        } 
     },
-    "authors": [
-        {
-            "name": "maheshmistry",
-            "email": "maheshmistry879@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-            "tscGoogleJobPostingParser\\": "src/"
-        }
-    }
 
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "maheshmistry/tsc-google-job-posting-parser": "@dev"
+    }
 }
