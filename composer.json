@@ -1,5 +1,5 @@
 {
-    "name": "mahesh/tsc-google-job-posting-parser",
+    "name": "maheshmistry/tsc-google-job-posting-parser",
     "type": "package",
     "require": {
         "php": ">=7.4"
