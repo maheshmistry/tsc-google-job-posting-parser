@@ -1,5 +1,7 @@
 <?php
 
+namespace tscGoogleJobPostingParser;
+
 require_once 'abstractType.php';
 
 class Organization extends abstractType{

@@ -1,0 +1,19 @@
+{
+    "name": "mahesh/tsc-google-job-posting-parser",
+    "type": "library",
+    "authors": [
+        {
+            "name": "maheshmistry",
+            "email": "maheshmistry879@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "tscGoogleJobPostingParser\\": "src/"
+        }
+    }
+
+}

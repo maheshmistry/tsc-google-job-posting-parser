@@ -1,5 +1,7 @@
 <?php
 
+namespace tscGoogleJobPostingParser;
+
 require_once 'abstractType.php';
 
 class Place extends abstractType{

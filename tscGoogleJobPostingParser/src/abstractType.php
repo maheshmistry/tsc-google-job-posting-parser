@@ -1,5 +1,7 @@
 <?php
 
+namespace tscGoogleJobPostingParser;
+
 use JsonSerializable;
 
 abstract class abstractType implements JsonSerializable{

@@ -1,8 +1,9 @@
 <?php
 
-require_once 'src/JobPosting.php';
+require_once 'tscGoogleJobPostingParser/src/JobPosting.php';
 
 use PHPUnit\Framework\TestCase;
+use tscGoogleJobPostingParser\JobPosting;
 
 final class JobPostingTest extends TestCase
 {

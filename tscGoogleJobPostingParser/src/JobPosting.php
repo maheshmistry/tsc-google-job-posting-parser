@@ -1,5 +1,7 @@
 <?php
 
+namespace tscGoogleJobPostingParser;
+
 require_once 'abstractType.php';
 require_once 'Organization.php';
 require_once 'Place.php';
